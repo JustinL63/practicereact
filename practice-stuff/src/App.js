@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
-import Login from "./Login"
+import Layout from "../src/Components/Layout/Layout"
 
-function App() {
-  return (
-    <div className="App">
-     <Login/>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return(
+      <div>
+        <Layout/>
+      </div>
+    )
+  }
 }
-
+    
 export default App;
